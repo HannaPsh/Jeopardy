@@ -68,7 +68,7 @@ const jeopardyCategories = [
         level: 'medium',
       },
       {
-        question: 'When the first of the Star Wars movies released?',
+        question: 'When was the first of the Star Wars movies released?',
         answers: ['1999', '1977', '1983'],
         correct: '1977',
         level: 'hard',
