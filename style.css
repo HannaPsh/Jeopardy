@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(147, 147, 144);
+color: white;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction:column;
+font-family: "Anton",sans-serif;
+
+}
+
+#game{
+    display:flex;
+    background-color:rgb(32,32,32);
+}
+
+.genre-card {
+    width:160px;
+    height:120px;
+    background-color: rgb(26, 26, 255);
+    text-align:center;
+    border-bottom: solid rgb(20,20,89) 10px;
+    border-right: solid rgb(11,11,91) 10px;
+    border-top: solid rgb(1,61,200) 10px;
+    border-left: solid rgb(19,19,160) 10px;
+    font-size:100px;
+    margin:5px;
+    padding: 10px;
+    line-height:120px;
+}
+
+.genre-title{
+    background-color: rgb(26, 26, 255);
+    text-align: center;
+    font-size: 28px;
+    padding:5px;
+    margin:5px;
+    color: rgb(247, 224, 16);
+}
+.first-btn{
+    background-color: rgb(24,171,24);
+    border: solid 1px white;
+}
+.second-btn{
+    background-color: rgb(190,57,37);
+    border: solid 1px white;
+}
+.third-btn{
+    background-color: rgb(247, 224, 16);
+    border: solid 1px white;
+}
+.correct-answer {
+    background-color: rgb(250, 250, 151);
+    color:black;
+    
+}
+.wrong-answer {
+    background-color: rgb(250, 97, 97);
+    color:black;
+}
